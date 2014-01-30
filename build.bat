@@ -72,6 +72,9 @@ REM ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addo
 ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\vilas_cpl.pbo
 ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\vilas_cpl_core.pbo
 ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\weapons_a2ru.pbo
+..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\pook_h13.pbo
+..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\gdtmod_grass.pbo
+..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\kpfs_waysigns.pbo
 
 ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\smk_anims_lite.pbo
 ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\SOW_sounds.pbo
@@ -81,11 +84,6 @@ REM ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addo
 ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\skins.pbo
 ..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\SOW_sounds_c.pbo
 
-..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\gdtmod_plants2_tree.pbo
-..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\gdtmod_plants2_plant.pbo
-..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\gdtmod_plants2_misc.pbo
-..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\gdtmod_plants2_clutter.pbo
-..\..\Tools\DSSignFile.exe dayz_splights.biprivatekey ..\@DayZ_Splights\addons\gdtmod_plants2_bush.pbo
 
 echo.
 echo Move and clean files...
