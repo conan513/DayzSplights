@@ -16,6 +16,11 @@ else
 	_weapon = _weapon select 0;
 };
 
+_vehicle = typeOf (vehicle _attacker); 
+if ((getText (configFile >> "CfgVehicles" >> _vehicle >> "vehicleClass")) in ["CarW","Car","CarD","Armored","Ship","Support","Air","ArmouredW","ArmouredD","SupportWoodland_ACR"]) then {
+	_weapon = getText (configFile >> "CfgVehicles" >> _vehicle >> "displayName");
+};
+
 _distance = _victim distance _attacker;
 
 diag_log format["PHIT: %1 was hit by %2 with %3 from %4m with %5 dmg", _victim, _attacker, _weapon, _distance, _damage];
